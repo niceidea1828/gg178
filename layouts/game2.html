@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, width=device-width, viewport-fit=cover" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/game2.css" />
+    <title>This App</title>
+  </head>
+  <body>
+    <div class="wrapper hidden">
+      <div class="modal hidden">
+        <div class="outcome"></div>
+        <div class="reward_cont block">
+          <img src="../png/coin.png" alt="" />
+          <div class="reward"></div>
+        </div>
+        <div class="again block">OK</div>
+      </div>
+
+      <a href="main.html" class="back"> </a>
+
+      <div class="balance_cont block">
+        <img src="../png/coin.png" alt="" />
+        <div class="balance"></div>
+      </div>
+
+      <div class="slot_cont_cont block">
+        <div class="slot_cont"></div>
+      </div>
+
+      <div class="footer">
+        <div class="switch">
+          <div class="part block off act">BET</div>
+          <div class="part block auto">AUTO</div>
+        </div>
+
+        <div class="bet_cont block">
+          <img src="../png/minus.png" class="bet_minus" />
+
+          <div class="bet">100</div>
+
+          <img src="../png/plus.png" class="bet_plus" />
+        </div>
+
+        <div class="btn g spin">bet</div>
+      </div>
+    </div>
+
+    <script src="../scripts/jQuery.js"></script>
+    <script src="../scripts/game2.js"></script>
+  </body>
+</html>

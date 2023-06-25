@@ -1,0 +1,40 @@
+.shop {
+  gap: 30px;
+}
+
+.card {
+  width: 162px;
+}
+
+.card_pic {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.card_btn {
+  width: 162px;
+  height: 53px;
+}
+
+.card_btn.gray {
+  background: #6d6d6d;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 20px;
+  text-align: center;
+}
+
+.back {
+  top: 10px;
+  left: 60px;
+}
+
+.balance_cont {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}

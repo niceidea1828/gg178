@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/game.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper hidden">
+      <a href="./main.html" class="back block">
+        <img src="../png/back.png" alt="" />
+      </a>
+
+      <div class="modal hidden">
+        <div class="outcome"></div>
+
+        <div class="reward_cont block">
+          <div class="reward"></div>
+          <img src="../png/coin.png" alt="" />
+        </div>
+
+        <div class="modal_ok again block">ok</div>
+      </div>
+
+      <div class="plane"></div>
+      <div class="tri"></div>
+      <div class="cf">0</div>
+      <div class="bg-game"></div>
+
+      <div class="footer">
+        <div class="switch">
+          <div class="part block off act">BET</div>
+          <div class="part block auto">AUTO</div>
+        </div>
+
+        <div class="bet_cont block">
+          <img src="../png/minus.png" class="bet_minus" />
+
+          <div class="bet">100</div>
+
+          <img src="../png/plus.png" class="bet_plus" />
+        </div>
+
+        <div class="btn g">bet</div>
+      </div>
+
+      <div class="balance_text">Balance</div>
+      <div class="balance_cont block">
+        <img src="../png/coin.png" alt="" />
+        <div class="balance">0</div>
+      </div>
+    </div>
+
+    <script src="../scripts/jQuery.js"></script>
+    <script src="../scripts/game.js"></script>
+  </body>
+</html>
